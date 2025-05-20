@@ -46,3 +46,84 @@ body{
 
 /* main */
 
+.enfant1 h1{
+    line-height: 50px;
+}
+
+.enfant2 p{
+    text-align: center;
+    font-size: 13px;
+}
+.enfant3 input{
+    background-color: rgba(101, 101, 101, 0.6); /* noir avec opacité */
+    border: 2px solid rgb(162, 162, 162);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    justify-self: center;
+    display: flex;
+}
+
+.mamanloupe{
+    height: 25px;
+    width: 25px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2rem;
+
+}
+
+.rond{
+    height: 50px;
+    width: 50px;
+    background-color: inherit;
+    border-radius: 50%;
+    border:2px solid gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(101, 101, 101, 0.6);
+}
+
+.petitrond{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mamanloupe img{
+    width: 15px;
+    height: 15px;
+}
+
+.enfant3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+
+
+.enfant3 input::placeholder{
+    color: white;
+}
+
+.start{
+    display: flex;
+    justify-self: start;
+}
+
+.center{
+    display: flex;
+    justify-self: center;
+}
+
+.end{
+    display: flex;
+    justify-self: end;
+}
